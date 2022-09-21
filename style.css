@@ -1,0 +1,102 @@
+body {
+margin: 0;
+padding: 0;
+   }
+
+ * {
+  box-sizing: border-box;
+}
+
+form {
+  padding: 1em;
+  background: #f9f7f6;
+  border: 1px solid #8a8888;
+  margin-top: 2rem;
+  max-width: 1500px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding: 1em;
+}
+
+form input {
+  margin-bottom: 2rem;
+  background: #fafcfa;
+  border: 2px solid #5c4c4c;
+}
+
+form button {
+  background: rgb(188, 184, 184);
+  padding: 1em;
+  border: 0;
+}
+
+form button:hover {
+  background: rgb(47, 244, 3);
+  color: white;
+}
+
+form span a{
+  background:#05e609;
+  padding: 1em;
+  border: 0;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+form span a:hover {
+  background: rgb(3, 159, 11);
+  color: white;
+}
+
+label {
+  text-align: left;
+  display: block;
+  padding: 0.5em 1.5em 0em 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+
+input:focus {
+  outline: 3px solid rgb(5, 251, 5);
+}
+
+select {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+
+select:focus {
+  outline: 3px solid rgb(90, 245, 7);
+}
+
+@media (min-width: 400px) {
+  form {
+    overflow: hidden;
+  }
+
+    label {
+    float: left;
+    width: 200px;
+  }
+
+    input {
+    float: left;
+    width: calc(100% - 200px);
+  }
+
+    select {
+    float: left;
+    width: calc(100% - 200px);
+  }
+
+    button {
+    float: right;
+    width: calc(100% - 200px);
+  }

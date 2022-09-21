@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Ravin Pradhitya - Quiz 1</title>
+</head>
+<body>
+    <form action="submit.php" method="GET">
+
+        <h1 align="center">Formulir Pendaftaran Pasien Baru</h1>
+      
+              <h3 align="center">Pemerintah Kabupaten Solok</h3>
+
+              <h3 align="center">Rumah Sakit Umum Daerah Arosuka</h3>
+
+              <h3 align="left">I. Identitas Pasien</h3>
+      
+              <label>Nama Pasien</label>
+              <input name="nama_pasien" type="text">
+      
+              <label>Tempat Lahir</label>
+              <input name="tempat_lahir" type="text">
+      
+              <label>Tanggal Lahir</label>
+              <input type="date" id="birthday" name="birthday">
+      
+              <label>Jenis Kelamin</label>
+              <select id="jenis_kelamin" name= "jenis_kelamin">
+                <option value="Laki-Laki">Laki-Laki</option>
+                <option value="Perempuan">Perempuan</option>
+              </select>
+      
+              <label>Alamat</label>
+              <input name="alamat" type="text">
+      
+              <label>Provinsi</label>
+              <input name="provinsi" type="text">
+
+              <label>Kecamatan</label>
+              <input name="kecamatan" type="text">
+
+              <label>Kelurahan/Desa</label>
+              <input name="kelurahan_desa" type="text">
+
+              <label>Nomor HP</label>
+              <input name="nomor_hp" type="text">
+
+              <label>Kode Pos</label>
+              <input name="kode_pos" type="text">
+
+              <label>Agama</label>
+              <input name="agama" type="text">
+
+              <label>Pendidikan Terakhir</label>
+              <input name="pendidikan_terakhir" type="text">
+
+              <label>Pekerjaan</label>
+              <input name="pekerjaan" type="text">
+
+              <h3 align="left">II. Penanggung Jawab Pasien</h3>
+
+              <label>Hubungan dengan Pasien</label>
+              <input name="hubungan_pasien" type="text">
+
+              <label>Nama Penanggung Jawab</label>
+              <input name="nama_penanggung_jawab" type="text">
+
+              <label>Pendidikan Penanggung Jawab</label>
+              <input name="pendidikan_penanggung_jawab" type="text">
+
+              <label>Pekerjaan Penanggung Jawab</label>
+              <input name="pekerjaan_penanggung_jawab" type="text">
+
+              <label>Upload Tanda Tangan</label>
+              <input name="upload_tanda_tangan" type="file">
+
+              <button>Submit</button>
+       </form>
+</body>
+</html>
